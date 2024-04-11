@@ -6,8 +6,8 @@ y_data      = np.load('y.pkl', allow_pickle=True)
 metadata    = np.load('metadata.pkl', allow_pickle=True)
 x_data      = np.load('x.pkl', allow_pickle=True)
 
-DeviceId    = 31425
-Sensor      = "CAN_Flow" #Select from: Beschleunigung_Horizontal_58, Beschleunigung_Vertikal_60, CAN_Flow, Druck_DS_P2, Druck_SS_P1, Strom
+DeviceId    = 31430
+Sensor      = "Beschleunigung_Horizontal_58" #Select from: Beschleunigung_Horizontal_58, Beschleunigung_Vertikal_60, CAN_Flow, Druck_DS_P2, Druck_SS_P1, Strom
 
 SensorTypes = {
     "Beschleunigung_Horizontal_58": 0,
